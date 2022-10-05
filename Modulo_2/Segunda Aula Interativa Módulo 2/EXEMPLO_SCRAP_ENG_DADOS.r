@@ -102,13 +102,13 @@ preco = as.matrix(unlist(preco))
 dft <- cbind(tipo, rua, carac, preco)
 -----------------------------------------------
 
---conexão com o MySQL
+#conexão com o MySQL
 library(RMySQL)
 con = dbConnect(RMySQL::MySQL(),user="root", 
                 password = "novapass", dbname="dbsacihdev-1")
 
 
---Disponibilização do serviço
+#Disponibilização do serviço
 
 library(plumber)
 #API <- plumb('historico.R')
@@ -120,7 +120,7 @@ API$run(host = '0.0.0.0',
         port = 3001,
         swagger = T)
 		
---Exemplo de um serviço
+#Exemplo de um serviço
 
 #* @get /historicopaciente
 #* @serializer contentType list(type="application/pdf")
@@ -133,7 +133,7 @@ function(res, numeroProntuario ,numeroInternacao){
   bin =  readBin(filename, "raw", n=file.info(filename)$size)
 }
 
---Exemplo de query
+#Exemplo de query
 dadosinternacaoData <- function(datInicio, datFim) {
   rs = dbSendQuery(con, paste(" select i.id, i.numero, p.numeroProntuario, i.pacienteNome, 
   p.sexo, v.descricao, i.pacienteIdade, i.pacienteTipoIdade,  
