@@ -15,7 +15,7 @@ Assim possibiliou que pudesse estudar através de desafios semanais sucessivos q
 
 Nos links abaixo de cada módulo disponibilizo materiais de trabalhos práticos e desafios estudados no bootcamp:
 
-| [ABERTURA](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Abertura) | [MÓDULO_1](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_1)| [MÓDULO_2](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_2) | [MÓDULO_3](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_3) | [MÓDULO_4](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_4) | [DESAFIO FINAL](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_5)|
+| [ABERTURA](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Abertura) | [MÓDULO_1](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_1)| [MÓDULO_2](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_2) | [MÓDULO_3](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_3) | [MÓDULO_4](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Modulo_4) | [DESAFIO FINAL](https://github.com/Manoel/Bootcamp-Engenharia-de-Dados/tree/main/Desafio_Final)|
 |---------|--------|---------|---------|---------|-------------|
 |`4h`     |`32h`   |`32h`    |`32h`    |`32h`    |`12h`        |   
 |Aquecimento e Regras do Jogo |Fundamentos|Armazenamento de dados| Solução de dados utilizando Ecossistema Hadoop |Infraestrutura de dados e arquitetura escalável|Desafio Final|
